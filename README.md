@@ -49,3 +49,8 @@ Please ensure your pull request is in line with the project's coding style and s
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Screenshots
+<img width="1440" alt="Screenshot 2024-02-11 at 1 57 01 PM" src="https://github.com/varunsingh2004/RockPaperScissor/assets/65435585/dc82b505-8519-4a91-a095-f26110bbb4c7">
+<img width="1440" alt="Screenshot 2024-02-11 at 1 56 54 PM" src="https://github.com/varunsingh2004/RockPaperScissor/assets/65435585/a42db0e6-0e59-423f-becf-51744b32da83">
+
