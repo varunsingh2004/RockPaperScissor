@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RPS</title>
+    <link rel = "stylesheet" href = "styles.css">
+    <script src="https://kit.fontawesome.com/5eebd4d6b6.js" crossorigin="anonymous"></script></head>
+    <script src = "script.js" defer></script>
+<body>
+    
+    <nav id="header"><h1 class="title">Rock Paper Scissors</h1></nav>
+    <div class="container">
+        <div class="player-section">
+            <div class="info">
+                <h3> You:</h3><span id="playerScore">0</span>
+            </div>
+            <div class="show">
+                <i class="fa-solid fa-hand-back-fist"></i>
+            </div>
+        </div>
+        <div class="computer-section">
+            <div class="info">
+                <h3> Computer: </h3><span id="computerScore">0</span>
+            </div>
+            <div class="computer-show">
+                <i class="fa-solid fa-hand-scissors"></i>
+            </div>
+        </div>
+    </div>
+    <div class="options-container">
+        <div class="anouncement">
+            <h1 id="anouncement-text">Choose One!</h1>
+        </div>
+        <div class="options">
+            <button class="fa-solid fa-hand-back-fist" id="rock"></button>
+            <button class="fa-solid fa-hand" id="paper"></button>
+            <button class="fa-solid fa-hand-scissors" id="scissors"></button>
+        </div>
+    </div>
+
+    
+</body>
+</html>

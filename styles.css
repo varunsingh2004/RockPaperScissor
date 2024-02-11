@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 11vh;
+    background-color: rgb(53, 53, 53);
+}
+
+body{
+    font-family: "Varela Round", sans-serif;
+}
+
+.title{
+    color: whitesmoke;
+}
+
+span{
+    font-family: "Varela Round", sans-serif;
+    margin-left: 5px;
+}
+.container{
+    margin-top: 10%;
+    display: flex;
+    margin-left: 20%;
+    margin-right: 20%;
+    gap: 17%;
+
+}
+
+.player-section{
+    height: 350px;
+    width: 350px;
+    align-items: center;
+}
+.computer-section{
+    height: 350px;
+    width: 350px;
+    align-items: center;
+}
+
+.info{
+    display: flex;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    color: whitesmoke;
+    background-color: black;
+}
+
+.show, .computer-show{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(53,53,53);
+    height: 300px;
+}
+
+.computer-show i{
+    font-size: 100px;
+    color: whitesmoke;
+}
+
+.show i{
+    font-size: 100px;
+    color: whitesmoke;
+}
+
+
+.options-container{
+    margin: 2% 20%;
+    height: 200px;
+    width: 60%;
+
+}
+
+.anouncement{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.options{
+    display: flex;
+    gap: 150px;
+    justify-content: center;
+    background-color: rgb(53,53,53);
+}
+
+.options button{
+    font-size: 100px;
+    border-radius: 50%;
+    background-color: rgb(53, 53, 53);
+    color: whitesmoke;
+}
